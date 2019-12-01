@@ -1,0 +1,173 @@
+/*
+    Theme Name: cr12_birgit_schneider_traveler
+    Description: Birgits Wordpress Theme
+    Version: 1.0
+    Author: Birgit Schneider
+
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+.jumbotron {
+    
+    padding: 1em; 
+    padding-top: 2em;
+    height: 500px; 
+    background-image: url(https://cdn.pixabay.com/photo/2019/10/27/18/48/new-york-4582500_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    font-weight: bold !important;
+        
+}
+
+.jumbotron a {
+    color: aliceblue;
+    
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+}
+
+/* Main */
+
+.recent {
+    margin-top: 1em;
+}
+
+ .card {
+      border:  none;
+    }
+
+/* Comments */
+
+div.comment-form {
+    margin: 4em;
+}
+
+div.comment-form h3 {
+    font-size: 1.8em;
+}
+
+.comment-form input[type=text],
+.comment-form input[type=email],
+.comment-form input[type=url],
+.comment-form textarea {
+    
+    padding: 0.5em;
+    border-radius: 3px;
+    background-color: #F8F9FA;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);   
+}
+
+.comment-form input[type=submit] {
+    padding: 0.5em;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.3); 
+}
+
+.comment-list {
+    margin-top: 5em;
+}
+
+.comment-list ul {
+    list-style: none !important;
+}
+
+.single-comment {
+    background-color: #F8F9FA;
+    padding: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.single-comment .children {
+    margin-top: 1em;
+}
+
+.single-comment .avatar {
+    float: right;
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+
+/* Navigation */
+
+.current-menu-item a {
+    color: #007BFF !important;
+}
+
+.twitter a:hover {
+    background-color: #1da1f2;
+    color: white;
+    padding: 2px;
+    font-size: 1.2em;
+    border-radius: 2px       
+}
+
+.facebook a:hover {
+    background-color: #3b5998;
+    color: white;
+    padding: 2px;
+    font-size: 1.2em;
+    border-radius: 2px      
+}
+
+/* Sidebar */
+
+.site-sidebar {   
+    padding-top: 2.5em; 
+    padding-bottom: 1em;
+}
+
+.widget {
+    background: #F8F9FA;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-top: 0px;
+}
+
+
+/* Footer */
+
+.nav-social ul, .nav-secondary ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+
+.nav-social a, .nav-secondary a {
+    display: block; 
+    color: black;
+    margin: 10px
+    
+}
+
+.nav-social li, .nav-secondary li {
+   float: left  
+}
+
+
+@media screen and (min-width:600px) {
+    
+    
+    .nav-secondary {
+        float:right;
+    }
+    
+    .nav-social {
+        float: left;  
+    }
+}
+
+
+
+
